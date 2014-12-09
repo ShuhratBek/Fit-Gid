@@ -1,0 +1,1237 @@
+/*
+*  Main
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #1c2029;
+}
+a,
+a:hover,
+a:focus,
+.btn {
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #e8492a;
+    border: 1px solid #e8492a;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: transparent;
+    color: #e8492a;
+    border: 1px solid #e8492a;
+}
+/*
+*  Section 1
+*/
+#sec1 {
+    position: relative;
+    min-height: 100vh;
+    /*background: url(../img/main_bg.jpg) 50% 60% no-repeat;*/
+}
+#sec1 .brand {
+    margin-top: 60px;
+}
+.brand {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    padding: 5px;
+    background-color: #e8492a;
+    color: #fff;
+    letter-spacing: 2.5px;
+    text-shadow: 1px 0 #333;
+    display: inline-block;
+    line-height: 1;
+}
+.brand:hover,
+.brand:focus {
+    color: #fff;
+}
+#front-img {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec1 h1 {
+    margin-top: 33%;
+}
+#sec1 h3 {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+#sec1 address {
+    margin-top: 50px;
+    font-size: 30px;
+}
+#sec1 address img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+#down {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 30px;
+    color: #1c2029;
+    line-height: 1;
+    font-size: 50px;
+    padding: 0;
+    width: 50px;
+    text-align: center;
+}
+/*
+* Section 2
+*/
+#sec2 {
+    background: #1c2029;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+/*
+* Section 3
+*/
+#sec3 {
+    background-color: #f9f9fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#sec3 .feature-list {
+    list-style: none;
+}
+#sec3 .feature-list li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#sec3 .feature-list img {
+    vertical-align: middle;
+}
+#sec3 .feature-list p {
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 15px;
+    width: 75%;
+}
+form {
+    background-color: #fff;
+    border: 1px solid #979797;
+    padding: 20px 40px 30px;
+    text-align: center;
+}
+form h2 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+form h2 span {
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 25px;
+}
+form button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+form p {
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-top: 30px;
+}
+.form-control {
+    padding: 15px 20px;
+    height: auto;
+    border-radius: 10px;
+}
+#sec4 {
+    text-align: center;
+    background: transparent;
+    background: url(../img/service_bg.jpg) no-repeat;
+    color: #fff;
+}
+#sec4 h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#sec4 p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#sec5 {
+    min-height: 475px;
+    background: url(../img/main_bg.jpg) 50% bottom no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+#sec5 h2 {
+    margin-top: 16%;
+}
+#sec5 .controls {
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+#sec6 {
+    background-color: #f9f9fa;
+    text-align: center;
+    padding: 40px 0;
+}
+#sec6 .img-thumbnail {
+    padding: 8px;
+    border-radius: 0;
+    border-color: #7e8890;
+    margin-top: 30px;
+}
+#sec7 {
+    background: url(../img/otziv_bg.jpg) no-repeat;
+    color: #fff;
+    text-align: center;
+}
+#sec7 .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#sec7 .img-circle {
+    width: 216px;
+    padding: 8px;
+    border: 1px solid #7e8890;
+    margin: 40px auto;
+}
+.otziv-carousel .item {
+    text-align: center;
+}
+.comment .fa {
+    color: #e8492a;
+}
+.comment {
+    background-color: #f9f9fa;
+    padding: 20px 20px 10px;
+    color: #1c2029;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comment p {
+    margin-left: 35px;
+    text-align: left;
+    font-size: 15px;
+}
+#sec8 {
+    background-color: #f9f9fa;
+    padding: 40px 0;
+}
+#sec8 .middle h2 {
+    margin-top: 30%;
+}
+#sec8 .middle p {
+    font-size: 25px;
+    font-weight: 300;
+}
+footer {
+    background-color: #1c2029;
+    padding: 40px 0;
+    color: #d0d5d8;
+}
+footer address {
+    font-size: 30px;
+    margin: 0;
+    float: right;
+}
+footer address img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+#play {
+    background: url(../img/play.png) no-repeat;
+    background-position: 0 0;
+}
+#play:hover,
+#play:focus {
+    background-position: 0 -52px;
+}
+#pause {
+    background: url(../img/pause.png) no-repeat;
+    background-position: 0 0;
+}
+#pause:hover,
+#pause:focus {
+    background-position: 0 -52px;
+}
+#play,
+#pause {
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: none;
+}
+.btn-inv {
+    font-weight: 700;
+    color: #e8492a;
+    border: 1px solid #e8492a;
+    padding: 15px 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.btn-inv:hover,
+.btn-inv:focus {
+    background-color: #e8492a;
+    color: #fff;
+}
+#sec2,
+#sec3,
+#sec4,
+#sec5,
+#sec6,
+#sec7,
+#sec8 {
+    z-index: 22;
+}
+.help-block {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.video {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    min-height: 475px !important;
+}
+.video video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.video_overlay {
+    background: rgba(0,0,0,.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .brand {
+        font-size: 30px;
+    }
+    #sec1 .brand {
+        margin-top: 50px;
+    }
+    #sec1 h1 {
+        margin-top: 35%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #sec1 h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #front-img {
+        display: block;
+        width: 60%;
+    }
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 6px;
+    }
+    #sec1 address {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #sec1 address img {
+        width: 30px;
+    }
+    #sec3 .feature-list img {
+        width: 50px;
+    }
+    body {
+        font-size: 14px;
+    }
+    form {
+        padding: 10px 20px 15px;
+    }
+    form h2 span {
+        font-size: 12px;
+    }
+    .form-control {
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+    form h2 {
+        margin-bottom: 20px;
+    }
+    form p {
+        font-size: 7px;
+        color: #a5a5a5;
+        margin-top: 20px;
+    }
+    .btn-inv {
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    #sec3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec3 .feature-list li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #sec4 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #sec4 p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    #sec5 {
+        min-height: 250px;
+    }
+    #sec6 {
+        padding: 20px 0;
+    }
+    .video {
+        min-height: 250px !important;
+    }
+    .comment {
+        padding: 15px 15px 10px;
+        width: 90%;
+    }
+    .comment p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .owl-prev {
+        margin-right: 105px;
+    }
+    .owl-next {
+        margin-left: 105px;
+    }
+    .owl-nav {
+        top: 15%;
+    }
+    #sec7 .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec7 .img-circle {
+        width: 150px;
+        padding: 4px;
+        margin: 20px auto;
+    }
+    #sec8 {
+        padding: 20px 0;
+    }
+    #sec8 .middle h2{
+        margin-top: 0;
+    }
+    #sec8 .middle p {
+        font-size: 12px;
+    }
+    #sec6 .img-thumbnail {
+        margin-top: 20px;
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0;
+    }
+    footer address {
+        float: none!important;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    footer address img {
+        width: 35px;
+    }
+}
+@media (min-aspect-ratio:1/1) and (min-width: 736px) and (max-width: 1024px) {
+    .brand {
+        font-size: 30px;
+    }
+    #sec1 .brand {
+        margin-top: 20px;
+    }
+    #sec1 h1 {
+        margin-top: 2%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #sec1 h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #front-img {
+        display: block;
+        width: 30%;
+    }
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 6px;
+    }
+    #sec1 address {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #sec1 address img {
+        width: 30px;
+    }
+    #sec3 .feature-list img {
+        width: 50px;
+    }
+    body {
+        font-size: 14px;
+    }
+    form {
+        padding: 10px 20px 15px;
+    }
+    form h2 span {
+        font-size: 12px;
+    }
+    .form-control {
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+    form h2 {
+        margin-bottom: 20px;
+    }
+    form p {
+        font-size: 10px;
+        color: #a5a5a5;
+        margin-top: 20px;
+    }
+    .btn-inv {
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    #sec3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec3 .feature-list li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #sec4 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #sec4 p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    #sec5 {
+        min-height: 250px;
+    }
+    #sec6 {
+        padding: 20px 0;
+    }
+    .video {
+        min-height: 250px !important;
+    }
+    .comment {
+        padding: 15px 15px 10px;
+        width: 90%;
+    }
+    .comment p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .owl-prev {
+        margin-right: 105px;
+    }
+    .owl-next {
+        margin-left: 105px;
+    }
+    .owl-nav {
+        top: 15%;
+    }
+    #sec7 .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec7 .img-circle {
+        width: 150px;
+        padding: 4px;
+        margin: 20px auto;
+    }
+    #sec8 {
+        padding: 20px 0;
+    }
+    #sec8 .middle h2{
+        margin-top: 0;
+    }
+    #sec8 .middle p {
+        font-size: 12px;
+    }
+    #sec6 .img-thumbnail {
+        margin-top: 20px;
+    }
+    footer {
+        text-align: left;
+        padding: 20px 0;
+    }
+    footer address {
+        float: right!important;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    footer address img {
+        width: 35px;
+    }
+}
+@media (min-aspect-ratio:1/1) and (min-width: 667px) and (max-width: 736px) {
+    #down {
+        right: 80%;
+        font-size: 30px;
+        width: 30px;
+    }
+    .brand {
+        font-size: 30px;
+    }
+    #sec1 .brand {
+        margin-top: 20px;
+    }
+    #sec1 h1 {
+        margin-top: 2%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #sec1 h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #front-img {
+        display: block;
+        width: 30%;
+    }
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 6px;
+    }
+    #sec1 address {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #sec1 address img {
+        width: 30px;
+    }
+    #sec3 .feature-list img {
+        width: 50px;
+    }
+    body {
+        font-size: 14px;
+    }
+    form {
+        padding: 10px 20px 15px;
+    }
+    form h2 span {
+        font-size: 12px;
+    }
+    .form-control {
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+    form h2 {
+        margin-bottom: 20px;
+    }
+    form p {
+        font-size: 10px;
+        color: #a5a5a5;
+        margin-top: 20px;
+    }
+    .btn-inv {
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    #sec3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec3 .feature-list li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #sec4 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #sec4 p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    #sec5 {
+        min-height: 250px;
+    }
+    #sec6 {
+        padding: 20px 0;
+    }
+    .video {
+        min-height: 250px !important;
+    }
+    .comment {
+        padding: 15px 15px 10px;
+        width: 90%;
+    }
+    .comment p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .owl-prev {
+        margin-right: 105px;
+    }
+    .owl-next {
+        margin-left: 105px;
+    }
+    .owl-nav {
+        top: 15%;
+    }
+    #sec7 .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec7 .img-circle {
+        width: 150px;
+        padding: 4px;
+        margin: 20px auto;
+    }
+    #sec8 {
+        padding: 20px 0;
+    }
+    #sec8 .middle h2{
+        margin-top: 0;
+    }
+    #sec8 .middle p {
+        font-size: 12px;
+    }
+    #sec6 .img-thumbnail {
+        margin-top: 20px;
+    }
+    footer {
+        text-align: left;
+        padding: 20px 0;
+    }
+    footer address {
+        float: right!important;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    footer address img {
+        width: 35px;
+    }
+}
+@media (min-aspect-ratio:1/1) and (min-width: 480px) and (max-width: 667px) {
+    #down {
+        right: 80%;
+        font-size: 30px;
+        width: 30px;
+    }
+    .brand {
+        font-size: 30px;
+    }
+    #sec1 .brand {
+        margin-top: 20px;
+    }
+    #sec1 h1 {
+        margin-top: 2%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #sec1 h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #front-img {
+        display: block;
+        width: 30%;
+    }
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 6px;
+    }
+    #sec1 address {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #sec1 address img {
+        width: 30px;
+    }
+    #sec3 .feature-list img {
+        width: 50px;
+    }
+    body {
+        font-size: 14px;
+    }
+    form {
+        padding: 10px 20px 15px;
+    }
+    form h2 span {
+        font-size: 12px;
+    }
+    .form-control {
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+    form h2 {
+        margin-bottom: 20px;
+    }
+    form p {
+        font-size: 10px;
+        color: #a5a5a5;
+        margin-top: 20px;
+    }
+    .btn-inv {
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    #sec3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec3 .feature-list li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #sec4 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #sec4 p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    #sec5 {
+        min-height: 250px;
+    }
+    #sec6 {
+        padding: 20px 0;
+    }
+    .video {
+        min-height: 250px !important;
+    }
+    .comment {
+        padding: 15px 15px 10px;
+        width: 90%;
+    }
+    .comment p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .owl-prev {
+        margin-right: 105px;
+    }
+    .owl-next {
+        margin-left: 105px;
+    }
+    .owl-nav {
+        top: 15%;
+    }
+    #sec7 .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec7 .img-circle {
+        width: 150px;
+        padding: 4px;
+        margin: 20px auto;
+    }
+    #sec8 {
+        padding: 20px 0;
+    }
+    #sec8 .middle h2{
+        margin-top: 0;
+    }
+    #sec8 .middle p {
+        font-size: 12px;
+    }
+    #sec6 .img-thumbnail {
+        margin-top: 20px;
+    }
+    footer {
+        text-align: left;
+        padding: 20px 0;
+    }
+    footer address {
+        float: right!important;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    footer address img {
+        width: 35px;
+    }
+}
+@media (min-aspect-ratio:1/1) and (min-width: 320px) and (max-width: 480px) {
+    #down {
+        right: 80%;
+        font-size: 30px;
+        width: 30px;
+    }
+    .brand {
+        font-size: 30px;
+    }
+    #sec1 .brand {
+        margin-top: 20px;
+    }
+    #sec1 h1 {
+        margin-top: 2%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    #sec1 h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #front-img {
+        display: block;
+        width: 30%;
+    }
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 6px;
+    }
+    #sec1 address {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #sec1 address img {
+        width: 30px;
+    }
+    #sec3 .feature-list img {
+        width: 50px;
+    }
+    body {
+        font-size: 12px;
+    }
+    form {
+        padding: 10px 20px 15px;
+    }
+    form h2 span {
+        font-size: 12px;
+    }
+    .form-control {
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+    form h2 {
+        margin-bottom: 20px;
+    }
+    form p {
+        font-size: 7px;
+        color: #a5a5a5;
+        margin-top: 20px;
+    }
+    .btn-inv {
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    #sec3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec3 .feature-list li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #sec4 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #sec4 p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    #sec5 {
+        min-height: 250px;
+    }
+    #sec6 {
+        padding: 20px 0;
+    }
+    .video {
+        min-height: 250px !important;
+    }
+    .comment {
+        padding: 15px 15px 10px;
+        width: 90%;
+    }
+    .comment p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .owl-prev {
+        margin-right: 105px;
+    }
+    .owl-next {
+        margin-left: 105px;
+    }
+    .owl-nav {
+        top: 15%;
+    }
+    #sec7 .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec7 .img-circle {
+        width: 150px;
+        padding: 4px;
+        margin: 20px auto;
+    }
+    #sec8 {
+        padding: 20px 0;
+    }
+    #sec8 .middle h2{
+        margin-top: 0;
+    }
+    #sec8 .middle p {
+        font-size: 12px;
+    }
+    #sec6 .img-thumbnail {
+        margin-top: 20px;
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0;
+    }
+    footer address {
+        float: none!important;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    footer address img {
+        width: 35px;
+    }
+}
+@media (max-width: 320px) {
+    .brand {
+        font-size: 30px;
+    }
+    #sec1 .brand {
+        margin-top: 20px;
+    }
+    #sec1 h1 {
+        margin-top: 15%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    #sec1 h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #front-img {
+        display: none;
+    }
+    .btn-primary {
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 6px;
+    }
+    #sec1 address {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    #sec1 address img {
+        width: 30px;
+    }
+    #sec3 .feature-list img {
+        width: 50px;
+    }
+    body {
+        font-size: 12px;
+    }
+    form {
+        padding: 10px 20px 15px;
+    }
+    form h2 span {
+        font-size: 12px;
+    }
+    .form-control {
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+    form h2 {
+        margin-bottom: 20px;
+    }
+    form p {
+        font-size: 7px;
+        color: #a5a5a5;
+        margin-top: 20px;
+    }
+    .btn-inv {
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    #sec3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec3 .feature-list li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #sec4 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #sec4 p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    #sec5 {
+        min-height: 250px;
+    }
+    #sec6 {
+        padding: 20px 0;
+    }
+    .video {
+        min-height: 250px !important;
+    }
+    .comment {
+        padding: 15px 15px 10px;
+        width: 90%;
+    }
+    .comment p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .owl-prev {
+        margin-right: 105px;
+    }
+    .owl-next {
+        margin-left: 105px;
+    }
+    .owl-nav {
+        top: 15%;
+    }
+    #sec7 .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sec7 .img-circle {
+        width: 150px;
+        padding: 4px;
+        margin: 20px auto;
+    }
+    #sec8 {
+        padding: 20px 0;
+    }
+    #sec8 .middle h2{
+        margin-top: 0;
+    }
+    #sec8 .middle p {
+        font-size: 12px;
+    }
+    #sec6 .img-thumbnail {
+        margin-top: 20px;
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0;
+    }
+    footer address {
+        float: none!important;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    footer address img {
+        width: 35px;
+    }
+}
+@media (min-width: ) and (max-width: ) {
+    
+}
+.img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
